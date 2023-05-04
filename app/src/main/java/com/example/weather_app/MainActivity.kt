@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
 
         btEnviar.setOnClickListener {
             if (etNome.text.isNotBlank()) {
-                tvResultado.text = "Olá, ${etNome.text}!"
+                tvResultado.text = getString(R.string.hello_name, etNome.text.toString())
             } else {
-                etNome.error = "Digite um nome"
+                etNome.error = getString(R.string.type_in_your_name)
             }
 
 

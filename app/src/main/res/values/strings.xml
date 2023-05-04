@@ -2,4 +2,8 @@
     <string name="app_name">Weather_App</string>
     <string name="hello_juliano">Hello Juliano</string>
     <string name="name">Name</string>
+    <string name="result">Result</string>
+    <string name="type_in_your_name">Type in your name…</string>
+    <string name="send">Send</string>
+    <string name="hello_name">Hello, %1$s!</string>
 </resources>
